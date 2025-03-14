@@ -17,7 +17,7 @@ $(document).ready(function () {
     $("#form1").submit(function (event) {
       event.preventDefault();
       $.ajax({
-        url: 'http://localhost:8000/chat_bot/config/api.php',
+        url: '/api.php',
         type: 'POST',
         data: $(this).serialize(),
         success: function (result) {
