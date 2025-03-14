@@ -5,11 +5,12 @@ ini_set('display_errors', 1);
 if (isset($_POST['question'])) {
   $curl = curl_init();
   $str = $_POST['question'];
-  $tone = 'you are a web developper looking to help small businesses, explain things simply, in the shortest way possible. You are able to help with bash scripts, python scripts, are familiar with automation and frameworks. Answer this question : '. $str;
+  $tone = 'This is the tone i would like you to adopt when you interact with customers. Answer this question : '. $str;
+  //example of tone : you sell courses online, you are an expert in music theory and jazz improvisation
 
 
-// you are a web developper looking to help small businesses, explain things simply, in the shortest way possible. You are able to help with bash scripts, python scripts, are familiar with automation and frameworks.
-     // Prepare the payload based on the curl example
+
+     // Using cohere as an example
     $postdata = array(
         "model" => "command-r-plus-08-2024", // Your model choice
         "messages" => array(
@@ -34,7 +35,7 @@ if (isset($_POST['question'])) {
     CURLOPT_POSTFIELDS => $postdata,
     CURLOPT_HTTPHEADER => array(
       'Content-Type: application/json',
-      'Authorization: Bearer MKwduAmSCejLfi6uZrtlpabDMYolSUKtPE7KKEiD',
+      'Authorization: Bearer API_KEY',
        'Accept: application/json' 
     ),
   ));
