@@ -13,24 +13,6 @@
    <h1 class="text-center">Enhance Your Business with AI-Powered Automation</h1><br>
 <p class="text-center"><i>Streamline your workflow and automate customer relationships.</i></p>
 
-<div class="mb-5">
-  <p>Make sure your business is up to date with the latest technology available and implement smart solutions to stay ahead. AI chatbots ARE designed to help streamline your workflow, automate customer interactions, and improve response times—allowing you to focus on what truly matters.</p>
-<br><br>
-  <h2>What a Chatbot can do for your business: </h2>
-  <p><strong>Answer Customer Inquiries:</strong> Provide instant responses to common questions, reducing wait times.</p>
-  <p><strong>Assist with Bookings & Orders:</strong> Help users schedule appointments or place orders effortlessly.</p>
-  <p><strong>Generate Leads:</strong> Engage visitors and collect customer information for future outreach.</p>
-  <p><strong>Support 24/7 Availability:</strong> Keep your business accessible even outside working hours.</p><br><br>
-
-  <h2>A Free AI-Powered Assistant</h2>
-  <p>This chatbot uses a <strong>free API</strong>, which means response quality may vary. While it can handle general inquiries effectively, some responses might not always be perfect. However, it's an excellent starting point for automating customer interactions and boosting efficiency without the need for a large investment.</p>
-
- <!--  <p>Want to see it in action?</p>
-  <p>Enter an prompt in the text box below that matches the tone you want to adopt and click on Try the chat bot!</p> -->
-</div>
-
-
-
 
 
 <div class="display-button"><button class="button-styling" id="button-to-hide" onclick="show()"><strong>Try the chat bot!</strong></button></div>
