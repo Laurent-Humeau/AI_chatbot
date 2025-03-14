@@ -5,7 +5,7 @@
   <title>Chatbot</title>
   <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1698/1698535.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
